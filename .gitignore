@@ -1,0 +1,12 @@
+
+# Database credentials
+/config/database.local.php
+
+# Environment secrets
+.env
+.env.*
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
