@@ -1,0 +1,16 @@
+<?php
+/**
+ * Salin file ini menjadi database.local.php, lalu isi data koneksi.
+ * XAMPP default:
+ * host=localhost, username=root, password kosong, database=pasarkita.
+ *
+ * InfinityFree:
+ * gunakan MySQL Hostname, MySQL Username, MySQL Password, dan Database Name
+ * yang ditampilkan di panel akun hosting. Jangan menganggap host-nya localhost.
+ */
+return [
+    'host' => 'localhost',
+    'username' => 'root',
+    'password' => '',
+    'database' => 'pasarkita',
+];
